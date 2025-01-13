@@ -1,0 +1,32 @@
+[
+ {
+  "directory": "/home/zzlinus/dev/cpp/hik",
+  "arguments": [
+   "g++",
+   "-o",
+   "/home/zzlinus/dev/cpp/hik/build/src/main.o",
+   "-c",
+   "src/main.cc",
+   "-std=c++20",
+   "-O0",
+   "-g",
+   "-Wall",
+   "-Wextra",
+   "-Wpedantic",
+   "-Wstrict-aliasing",
+   "-Wno-pointer-arith",
+   "-Wno-newline-eof",
+   "-Wno-unused-parameter",
+   "-Wno-gnu-statement-expression",
+   "-Wno-gnu-compound-literal-initializer",
+   "-Wno-gnu-zero-variadic-macro-arguments",
+   "-I/home/zzlinus/dev/cpp/hik/include",
+   "-I",
+   "./hikSDK/include",
+   "-I/usr/include/opencv4",
+   "-L",
+   "./hikSDK/lib/amd64"
+  ],
+  "file": "src/main.cc"
+ }
+]
